@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.slr_e_ticketer.slr_e_ticketer.PurchaseTicketDetails"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="E-TICKETER"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:id="@+id/labelEticketer"
+        android:layout_weight="0.00"
+        android:layout_gravity="center_vertical"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Purchase Ticket Details"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:id="@+id/labelPurchaseTicket"
+        android:layout_below="@+id/labelEticketer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Starting Station"
+        android:id="@+id/labelStartStation"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textStartStation"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ending Station"
+        android:id="@+id/labelEndStation"
+        android:layout_weight="0.00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEndStation"
+        android:layout_weight="0.00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Price of the Ticket"
+        android:id="@+id/labelPriceOfTicket"
+        android:layout_weight="0.00" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPriceOfTicket"
+        android:layout_weight="0.00" />
+
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Pay For Ticket"
+        android:id="@+id/btnPayTicket"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12" />
+
+    <Button
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:text="Time Schedules"
+        android:id="@+id/btnTimeSchedule"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12" />
+</LinearLayout>

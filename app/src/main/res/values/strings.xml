@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SLR_E_TICKETER</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_service">ServiceActivity</string>
+    <string name="title_activity_activity_user_registration">activity_user_registration</string>
+    <string name="title_activity_purchase_ticket">purchase_ticket</string>
+    <string name="title_activity_purchase_ticket_details">purchase_ticket_details</string>
+    <string name="title_activity_activity_sign">activity_sign</string>
+
+</resources>
